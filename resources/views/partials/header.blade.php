@@ -51,13 +51,13 @@
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 							<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
 							<span class="status online"></span></span>
-							<span>{{ auth()->user()->name }}</span>
+							{{-- <span>{{ auth()->user()->name }}</span> --}}
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="{{route('profile.edit')}}">Profil</a>
+							{{-- <a class="dropdown-item" href="{{route('profile.edit')}}">Profil</a>
 							<a class="dropdown-item" href="{{route('profile.update')}}">Paramètres</a>
 							<form method="POST" action="{{ route('logout') }}">
-							    @csrf
+							    @csrf --}}
 							    <a class="dropdown-item" href="#" onclick="event.preventDefault(); 
 									this.closest('form').submit();">
 							        Déconnexion
